@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+      </style>
+     
+       <title>Contato</title>
+
+      <link rel="stylesheet" href="style.css">
+    </head>
+</head>
+<body>
+    
+  
+<nav id="menu-h"> 
+  <ul> <li class="item-menu"> 
+    <li class="item-menu"> 
+      <a href="contato.html">
+     <span class="icon"></span> 
+     <span class="txt-link">Contato</span> 
+      </a> 
+   </li>
+         <li class="item-menu"> 
+  <a href="Saber mais.html">
+  <span class="icon"></span>
+  <span class="txt-link">Sobre</span>
+  </a>
+   </li>
+   <li class="item-menu">
+ <a href="index.html">
+  <span class="icon"></span> 
+  <span class="txt-link">Home</span>
+  </a>
+ </ul> 
+ <img src="img/bb.jpg" id="mini">
+<h3 id="teto">Brigadeiros.Bia</h3>
+<br>
+
+<h1 id="fundo"></h1>
+</nav>
+
+
+   <section class="form-container">
+  
+    
+    <div class="container">
+           <form action="">
+            <h1>Entre em contato</h1>
+            <p>Fique sempre atualizado das novidades e promoções.Cadastre-se!</p>
+            <div class="inupt-single">
+              <br>
+              <br>
+              <label for="nome-box">Seu nome completo</label>
+            </div>
+
+            <div class="inupt-single">
+              <input type="text" name="" id="b-box" class="input" 
+              autocomplete="off" required>
+              
+
+              <label for="b-box">Seu e-mail</label>
+            </div>
+
+            <div class="inupt-single">
+              <input type="text" name="" id="email-box" class="input" 
+              autocomplete="off" required>
+              <label for="email-box">Seu telefone</label>
+            </div>
+       
+            <div class="inupt-single">
+              <input type="text" name="" id="numero-box" class="input" 
+              autocomplete="off" required>
+              <label for="tel-box"></label>
+            </div>
+       
+            <li class="btn"> 
+              <a href="formulario.html">
+             <span class="txt">Enviar</span> 
+             
+            </a> 
+           </li>
+            <div id="load"></div>
+
+          </form>
+        </div>
+  </section>  
+
+  <div id="footer">
+    
+    <h3 id="bb">Brigadeiros.Bia</h3>   
+    <p id="com">Brigadeiros.Bia.com</p>
+   
+     <P id="cep">Av. João XXIII, 1050 Santa Cruz-RJ</P>
+  
+  
+    <h4 id="point">institucional</h4>
+    <div id="end">
+      <p>Loja Física</p>
+      <p>Trocas e Devoluçōes</p>
+      <p>Retiradas e Entregas</p>
+      <p> Contato</p>
+      <p>Tem Frete Grátis</p>
+    </div>
+   
+    <h4 id="cel">Ajuda e Suporte</h4>
+    <div id="phone">
+      <p >Atendimento de segunda à sexta - 09 às 18hrs </p>
+      <p> Sábado de 09 às 13hrs</p>
+      <p>(11) 4002-8922</p>
+      <p>biancaramospinto@gmail.com</p>
+    
+      <div id="media">
+      <img src="img/whatsapp.png" id="wpp">
+      <img src="img/instagram.png" id="redes">
+      <img src="img/facebook-colorido.png" id="face">
+      </div>
+  
+    </div>
+    
+   
+  </div>
+    
+    
+    <div id="line"></div>
+   
+<br>
+<div id="oi">By Bianca Ramos</div>
+
+
+
+   <style>
+
+    section{
+      width: 100%;
+      height:100vh;
+      background-image: url(https://media.istockphoto.com/id/1219793143/pt/foto/brigadeiro-brazilian-candy.jpg?s=612x612&w=0&k=20&c=Z0XnfYzGpO5dWA8hkvjwV6tkXz-pjXgj9FQWnx1pUwA=);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    
+    #load{
+    
+     width: 20px;
+     height: 20px;
+     border: 10px solid;
+     border-radius: 100%;
+     border-top-color: transparent;
+     margin: 0 auto;
+     animation: load 2s linear infinite;
+    }
+
+   @keyframes load{
+    to {
+    transform: rotate(360deg);
+    }
+  }
+
+    .container{
+       max-width: 1280px;
+       margin: 0 auto;
+       padding: 0 4%;
+    }
+    
+    form{
+      background-color: #fff;
+      max-width: 500px;
+      height: 400px;
+      padding: 30px;
+      margin-top: 90px;
+      border-radius: 40px;
+    }
+    
+    form h1{
+       text-align: center;
+       font-size: 30px;
+       color: black;
+    }
+    
+    form p{
+       text-align: center;
+       margin: 20px 0;
+    
+    }
+    
+    .inupt-sigle{
+       position: relative;
+       margin: 30px 0;
+       
+    
+    }
+    
+    .inupt-sigle label{
+         position: absolute;
+         left: 0;
+         bottom: 5px;
+         transition: all 0.2s;
+         cursor: text;
+    
+    }
+    
+    .input{
+       width: 100%;
+       border: 0;
+       border-bottom: 2px solid #ccc;
+       padding: 9px;
+       font-size: 20px;
+       outline: none;
+    }
+     
+    .nome-box{
+    border-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+    }
+
+
+
+    form .inupt-sigle .input:focus ~ label,
+    form .inupt-sigle .input:valid ~ label{   
+        transform: translateY(-24px);
+        font-size: 12px;
+    
+    }
+    
+    .btn{
+       width:100%;
+       text-align: center;
+      padding-top: 40px;
+      text-decoration: none;
+     
+    }
+    
+    .txt{
+        padding: 10px 40px;
+        border: 0;
+        border-radius: 10px;
+        background-color: brown;
+        color: #fff;
+        cursor: pointer;
+    
+    
+    }
+    
+    </style>
+
+
+
+</body>
+</html>
